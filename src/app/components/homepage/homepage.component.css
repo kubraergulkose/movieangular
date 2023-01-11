@@ -1,0 +1,47 @@
+.movie__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-box {
+    display: flex;
+    justify-content: end;
+    margin: 50px;
+}
+.popular__movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.popular__movies .card {
+    width:200px;
+    height:max-content;
+    background-color: darkkhaki;
+    border-radius: 8px;
+    padding:5px
+}
+
+.popular__movies .card-img-top {
+    width:100%;
+}
+
+.card-body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size:11px;
+    line-height: 12px;
+    font-weight: 400;
+}
